@@ -1,0 +1,509 @@
+
+/*============= RESETS =============*/
+
+/*-- iPhone X Remove Gutters --*/
+html {
+    padding: env(safe-area-inset);
+}
+
+/*-- Prevent Horizontal Scrolling & Font Style --*/
+html,
+body {
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+    color: #505962;
+}
+
+.svg-inline--fa {
+    color: white;
+}
+
+
+.text-site {
+    color: #1EBBA3;
+}
+
+.heading-underline {
+    width: 17rem;
+    height: .1rem;
+    background-color: #ff0606;
+    margin: 0 auto;
+}
+
+/*--- Nav Scrolling Offset --*/
+.offset:before {
+    content: "";
+    height: 4rem;
+    display: block;
+    margin-top: -4rem;
+}
+
+/*============= NAVIGATION =============*/
+.navbar {
+    padding: .7rem 1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .1rem;
+    font-size: .9rem;
+    transition: background-color .5s ease;
+}
+
+.navbar-nav li {
+    padding-right: .8rem;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    padding-top: .8rem;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+    color: #ff0606;
+}
+
+.custom-toggler-icon {
+    color: white;
+    font-size: 1.6rem;
+}
+
+.navbar.solid,
+.navbar.solid-toggle {
+    background: rgba(0, 0, 0, .7) !important;
+    transition: background-color 1s ease;
+}
+
+/*-- Remove Button Outline --*/
+button:focus,
+a:focus,
+a.btn:focus {
+    outline: 0;
+    -webkit-appearance: none;
+    box-shadow: none;
+    transition: all .6s ease;
+}
+
+button,
+a,
+a.btn,
+.svg-inline--fa {
+    transition: all .6s ease;
+}
+
+/*============= LANDING PAGE =============*/
+
+/*--- Fixed Landing Page Section --*/
+.landing {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: table;
+    z-index: -1;
+    background-color: black;
+}
+
+.home-wrap {
+    clip: rect(0, auto, auto, 0);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.4;
+}
+
+.home-inner {
+    background-image: url('../img/pexels-cottonbro-4480505.jpg');
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    will-change: transform;
+    display: table;
+
+}
+
+/*-- Landing Page Caption --*/
+/* .caption {
+    z-index: 1;
+    position: absolute;
+    top: 38%;
+    width: 100%;
+    max-width: 100%;
+}
+
+.caption h1 {
+    font-size: 4rem;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .8rem black;
+    padding-bottom: 1rem;
+}
+
+.caption h3 {
+    font-size: 2.5rem;
+    text-shadow: .1rem .1rem .5rem black;
+    padding-bottom: 0.8rem;
+}
+
+.caption-underline {
+    width: 27rem;
+    height: .1rem;
+    background-color:#ff0606;
+    margin: 0 auto;
+} */
+
+
+
+
+
+
+.caption {
+    z-index: 30;
+    position: absolute;
+    top: 35%;
+    width: 100%;
+    max-width: 100%;
+}
+
+.caption h1 {
+    font-size: 2.8rem;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .8rem black;
+    padding-bottom: 1rem;
+}
+
+.caption h3 {
+    font-size: 2.2rem;
+    text-shadow: .1rem .1rem .5rem black;
+    padding-bottom: 0.8rem;
+}
+
+.caption-underline {
+    width: 20rem;
+    height: .1rem;
+    background-color:#ff0606;
+    margin: 0 auto;
+}
+
+/* .caption-underline-Second-row {
+    width: 34rem;
+    height: .1rem;
+    background-color: rgba(250, 114, 3, 0.979);
+    margin: 0 auto;
+} */
+
+
+
+
+
+
+
+
+
+
+/*============= caption btn =============*/
+
+/* .caption-btn {
+    border: solid #0206dd 1px;
+    color: #0206dd;
+    background-color: whitesmoke;
+}
+
+.caption-btn:hover {
+    background-color: #0206dd;
+    color: white;
+} */
+
+/*-- Bouncing Down Arrow --*/
+
+.arrow {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+}
+
+.down-arrow .svg-inline--fa {
+    color:#ff0606;
+    font-size: 2.2rem;
+
+    opacity: .7;
+}
+
+.down-arrow .svg-inline--fa:hover {
+    color: black;
+}
+
+
+
+ 
+
+
+
+/*============= google maps =============*/
+
+
+.google-map{
+
+    width: 100%;
+}
+
+.iframe {
+    width: 100%;
+    height: 300px;
+}
+
+/*============= footer  =============*/
+
+.site-footer {
+    background-color: #26272b;
+    padding: 45px 0 20px;
+    font-size: 15px;
+    line-height: 24px;
+    color: whitesmoke;
+}
+
+.site-footer h6 {
+    color: #ff0606;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    letter-spacing: 2px
+}
+
+/*============= icons  =============*/
+
+.icons {
+    margin: auto;
+    list-style: none;
+    text-align: right;
+}
+
+.icons a {
+    background-color: #00000081;
+    color: white;
+    font-size: 16px;
+    display: inline-block;
+    line-height: 44px;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    margin-right: 8px;
+    border-radius: 100%;
+    -webkit-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear;
+}
+
+/* .icons a:active,
+.icons a:focus,
+.icons a:hover {
+    color: #fff;
+} */
+
+.icons a.facebook:hover {
+    background-color: #3b5998
+}
+
+.icons a.linkedin:hover {
+    background-color: #007bb6
+}
+
+.icons a.mail:hover {
+    background-color: red;
+}
+
+.icons a.waze:hover {
+    background-color: #016e8f;
+}
+
+.icons a.phone:hover {
+    background-color: #20571f;
+}
+
+@media (max-width: 767.98px) {
+    /* icons {
+		margin: auto;
+		list-style: none;
+		text-align: right;
+	}
+	.icons a {
+		background-color: #00000081;
+		color: white;
+		font-size: 16px;
+		display: inline-block;
+		line-height: 44px;
+		width: 44px;
+		height: 44px;
+		text-align: center;
+		margin-right: 8px;
+		border-radius: 100%;
+		-webkit-transition: all .2s linear;
+		-o-transition: all .2s linear;
+		transition: all .2s linear;
+	}
+	.icons.size-sm a {
+		line-height: 34px;
+		height: 34px;
+		width: 34px;
+		font-size: 14px
+	} */
+}
+
+
+
+
+/*============= OUR SERVICES SECTION =============*/
+.fixed {
+
+    background: url('../img/pexels-karolina-grabowska-4386429.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+}
+
+/* .fixed {
+	position: relative;
+	width: 100%;
+	z-index: 1000 !important;
+} */
+/* .fixed-wrap {
+	clip: rect(0, auto, auto, 0);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -999 !important;
+} */
+/* .fixed-dark {
+	background-image: url('../img/dark-img.jpg');
+	z-index: -999 !important;
+	display: block;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center center;
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+	will-change: transform;
+} */
+.dark {
+    background-color: rgba(0, 0, 0, .6);
+    padding: 7rem 0;
+    z-index: 1000;
+}
+
+/*============= services columns =============*/
+
+.services-column {
+    background-color: white;
+    padding: 2rem;
+    box-shadow: 0 0 .8rem rgba(0, 0, 0, 0.075);
+    transition: transform .7s ease;
+    overflow: hidden;
+    position: relative;
+}
+
+.services-column:hover {
+    transform: scale(1.1);
+   
+    background-color: #f6f6f6;
+}
+
+.services-column p {
+    opacity: .8;
+    margin-top: 1.3rem;
+}
+
+.services-column h4 {
+    font-size: 1.1rem;
+    padding: .4rem;
+}
+
+.services-column .item {
+    font-weight: 700;
+}
+
+.svg-inline--fa{
+color: gray;
+}
+
+
+
+/*=============  phone =============*/
+
+ .click-to-call {
+    /* font-size: 1.7rem; */
+    /* color: white; */
+
+      font-size: 1.7rem;
+      color: white;
+    }
+
+/*============= gallery heading =============*/
+
+.gallery-heading .gallery-heading {
+    padding-top: 325px;
+    padding-bottom: 80px;
+}
+
+/*============= google maps =============*/
+
+.iframe {
+    width: 100%;
+    height: 300px;
+}
+
+/*============= gallery 2 =============*/
+
+
+body {
+    margin: 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    justify-content: center;
+    align-content: center;
+    grid-gap: 10px;
+    height: 100vh;
+}
+
+.grid img {
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+
+#lightbox {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .8);
+    display: none;
+}
+
+#lightbox.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#lightbox img {
+    max-width: 90%;
+    max-height: 80%;
+    padding: 4px;
+    background-color: black;
+    border: 2px solid white;
+}
