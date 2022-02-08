@@ -93,7 +93,7 @@ a.btn,
 /*============= LANDING PAGE =============*/
 
 /*--- Fixed Landing Page Section --*/
-.landing {
+/* .landing {
     position: relative;
     width: 100%;
     height: 100vh;
@@ -124,10 +124,61 @@ a.btn,
     will-change: transform;
     display: table;
 
+} */
+
+
+
+
+
+
+
+
+.landing {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	display: table;
+	z-index: 5;
+	background-color: rgba(0, 0, 0, .7);
+}
+.home-wrap {
+	clip: rect(0, auto, auto, 0);
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+.home-inner {
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url('../img/pexels-cottonbro-4480505.jpg');
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+	background-position: center center;
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+	will-change: transform;
+	display: table;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*-- Landing Page Caption --*/
-/* .caption {
+ .caption {
     z-index: 1;
     position: absolute;
     top: 38%;
@@ -153,14 +204,14 @@ a.btn,
     height: .1rem;
     background-color:#ff0606;
     margin: 0 auto;
-} */
+} 
 
 
 
 
 
 
-.caption {
+/* .caption {
     z-index: 30;
     position: absolute;
     top: 35%;
@@ -186,7 +237,10 @@ a.btn,
     height: .1rem;
     background-color:#ff0606;
     margin: 0 auto;
-}
+} */
+
+
+
 
 /* .caption-underline-Second-row {
     width: 34rem;
@@ -208,7 +262,7 @@ a.btn,
 
  .caption-btn {
    
-    color: #0206dd;
+    color: #ff0606;
     
 }
 
