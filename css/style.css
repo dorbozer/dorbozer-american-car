@@ -163,23 +163,9 @@ a.btn,
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*-- Landing Page Caption --*/
  .caption {
-    z-index: 1;
+    z-index: 30;
     position: absolute;
     top: 38%;
     width: 100%;
@@ -187,20 +173,20 @@ a.btn,
 }
 
 .caption h1 {
-    font-size: 4rem;
+    font-size: 3.3rem;
     letter-spacing: .3rem;
     text-shadow: .1rem .1rem .8rem black;
     padding-bottom: 1rem;
 }
 
 .caption h3 {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     text-shadow: .1rem .1rem .5rem black;
     padding-bottom: 0.8rem;
 }
 
 .caption-underline {
-    width: 27rem;
+    width: 25rem;
     height: .1rem;
     background-color:#ff0606;
     margin: 0 auto;
@@ -242,12 +228,12 @@ a.btn,
 
 
 
-/* .caption-underline-Second-row {
+ .caption-underline-Second-row {
     width: 34rem;
     height: .1rem;
     background-color: rgba(250, 114, 3, 0.979);
     margin: 0 auto;
-} */
+} 
 
 
 
@@ -511,10 +497,22 @@ color: gray;
 
 /*============= google maps =============*/
 
-.iframe {
+
+.map{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+   width: 100%;
+    height: 300px; 
+}
+
+/* .iframe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     height: 300px;
-}
+} */
 
 /*============= gallery 2 =============*/
 
