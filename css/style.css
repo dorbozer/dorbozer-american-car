@@ -134,14 +134,14 @@ a.btn,
 }
 
 .caption h1 {
-    font-size: 3.3rem;
-    letter-spacing: .3rem;
+    font-size: 3rem;
+    letter-spacing: 3rem;
     text-shadow: .1rem .1rem .8rem black;
     padding-bottom: 1rem;
 }
 
 .caption h3 {
-    font-size: 2.3rem;
+    font-size: 2rem;
     text-shadow: .1rem .1rem .5rem black;
     padding-bottom: 0.8rem;
 }
@@ -152,39 +152,6 @@ a.btn,
     background-color:#ff0606;
     margin: 0 auto;
 } 
-
-
-
-
-
-
-/* .caption {
-    z-index: 30;
-    position: absolute;
-    top: 35%;
-    width: 100%;
-    max-width: 100%;
-}
-
-.caption h1 {
-    font-size: 2.8rem;
-    letter-spacing: .3rem;
-    text-shadow: .1rem .1rem .8rem black;
-    padding-bottom: 1rem;
-}
-
-.caption h3 {
-    font-size: 2.2rem;
-    text-shadow: .1rem .1rem .5rem black;
-    padding-bottom: 0.8rem;
-}
-
-.caption-underline {
-    width: 20rem;
-    height: .1rem;
-    background-color:#ff0606;
-    margin: 0 auto;
-} */
 
 
 
