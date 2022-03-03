@@ -134,14 +134,14 @@ a.btn,
 }
 
 .caption h1 {
-    font-size: 3rem;
+    font-size: 2.6rem;
     letter-spacing: .3rem;
     text-shadow: .1rem .1rem .8rem black;
     padding-bottom: 1rem;
 }
 
 .caption h3 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     text-shadow: .1rem .1rem .5rem black;
     padding-bottom: 0.8rem;
 }
@@ -157,7 +157,7 @@ a.btn,
 
 
  .caption-underline-Second-row {
-    width: 34rem;
+    width: 27rem;
     height: .1rem;
     background-color: rgba(250, 114, 3, 0.979);
     margin: 0 auto;
