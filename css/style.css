@@ -90,6 +90,10 @@ a.btn,
     transition: all .6s ease;
 }
 
+dl, ol, ul {
+    text-align: right;
+}
+
 /*============= LANDING PAGE =============*/
 
 /*--- Fixed Landing Page Section --*/
@@ -162,6 +166,7 @@ a.btn,
     background-color: rgba(250, 114, 3, 0.979);
     margin: 0 auto;
 } 
+
 
 
 
