@@ -95,7 +95,7 @@ dl, ol, ul {
 	left: 0;
 }
 .home-inner {
-	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url('../img/pexels-cottonbro-4480505.jpg');
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url('../img/WhatsApp Image 2022-03-12 at 20.11.20.jpeg');
 	position: fixed;
 	height: 100%;
 	width: 100%;
@@ -203,6 +203,54 @@ dl, ol, ul {
 .svg-inline--fa {
 	color: gray;
 }
+
+
+/*============= gallery  =============*/
+
+/* body{
+	margin:0;
+	padding:0;
+}
+ .container{
+	width:90%
+	margin:10px auto;
+} 
+.portfolio-menu{
+	text-align:center;
+}
+.portfolio-menu ul li{
+	display:inline-block;
+	margin:0;
+	list-style:none;
+	padding:10px 15px;
+	cursor:pointer;
+	-webkit-transition:all 05s ease;
+	-moz-transition:all 05s ease;
+	-ms-transition:all 05s ease;
+	-o-transition:all 05s ease;
+	transition:all .5s ease;
+}
+
+
+.portfolio-item .item{
+	width:303px;
+	float:left;
+	margin-bottom:10px;
+} */
+
+
+
+.imgContainer{
+
+	width: 80%;
+	margin: 0 auto;
+}
+
+
+
+
+
+
 /*============= google maps =============*/
 
 .google-map {
